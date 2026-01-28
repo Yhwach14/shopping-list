@@ -4,6 +4,7 @@ A minimal Flutter app that helps track groceries; this project serves as practic
 
 ## Demo
 
+![App Demo](https://github.com/user-attachments/assets/5795888b-62b0-4599-83f7-8043665e0210)
 
 
 ## Features
