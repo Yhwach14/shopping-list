@@ -1,16 +1,28 @@
-# shopping_list
+# Shopping List
 
-A new Flutter project.
+A minimal Flutter app that helps track groceries; this project serves as practice for Firebase integration and backend development concepts.
 
-## Getting Started
+# Demo
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Real-time Grocery Tracking
+2. Categorized Selection
+3. Dynamic List Management
+4. Loading & Error States
+
+# Backend Integration
+
+This project utilizes Firebase Realtime Database to act as a NoSQL backend.
+
+# Environment Setup
+
+To keep the Firebase URL secure, this project uses environment variables. You will need to create a .env file in the root directory.
+1. Create the file:
+   ```bash
+    touch .env
+2. Add your Firebase realtime DataBase
+  ```bash
+    DB_URL = "https://your-project-id-default-rtdb.firebaseio.com/"
